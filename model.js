@@ -6,8 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 var Sequelize = require('sequelize');
-
-sequelize = new Sequelize('cmpr', 'cmpr', 'cmpr123', {
+/*Database=cmpr;Data Source=eu-cdbr-azure-west-c.cloudapp.net;User Id=bc3fc7a1886234;Password=7562bfdb*/
+sequelize = new Sequelize('cmpr', bc3fc7a1886234', 7562bfdb, {
         dialect: "mysql", // or 'sqlite', 'postgres', 'mariadb'
         port:    3306 // or 5432 (for postgres)
     });
